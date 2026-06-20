@@ -419,6 +419,7 @@ img {
   width: auto;
   height: 100%;
   object-fit: cover;
+  object-position: left bottom;
 }
 
 .program-card__content {
@@ -762,6 +763,11 @@ img {
     top: 0;
     width: 50%;
     height: 100%;
+    object-position: left bottom;
+  }
+
+  .program-card--flagship>img {
+    object-position: 36% bottom;
   }
 
   .program-card__content {
