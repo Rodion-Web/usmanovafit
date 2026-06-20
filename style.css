@@ -584,6 +584,71 @@ img {
   transform: rotate(45deg);
 }
 
+.site-footer {
+  background: #f3f3f3;
+  padding: 0;
+}
+
+.site-footer__inner {
+  max-width: 900px;
+  padding: 20px;
+  text-align: left;
+}
+
+.site-footer__company {
+  margin: 10px 0 20px;
+  color: #878787;
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.site-footer__company p {
+  margin: 0 0 10px;
+}
+
+.site-footer__company strong {
+  color: #444444;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.site-footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-footer__links a {
+  color: #878787;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.site-footer__links a:hover {
+  color: #000000;
+}
+
+.site-footer__socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.site-footer__socials a,
+.site-footer__socials img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.site-footer__socials img {
+  object-fit: contain;
+}
+
 @media (max-width: 1020px) {
   .hero__container {
     grid-template-columns: 1fr;
@@ -761,13 +826,13 @@ img {
 
   .program-card>img {
     top: 0;
-    width: 50%;
+    width: 60%;
     height: 100%;
     object-position: left bottom;
   }
 
   .program-card--flagship>img {
-    object-position: 36% bottom;
+    object-position: 77% bottom;
   }
 
   .program-card__content {
